@@ -2,11 +2,11 @@
   "name": "cse341-apicourse-code",
   "version": "1.0.0",
   "description": "code to give to students for the cse341 course",
-  "main": "server.js",
+  "main": "/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart":"nodemon server.hs",
-    "start": "server.js"
+    "devStart":"nodemon ./src/server.js",
+    "start": "./src/server.js"
   },
   "repository": {
     "type": "git",
