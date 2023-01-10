@@ -4,7 +4,7 @@ const server = express();
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 8080;
 
 server.use(bodyParser.json()).use((req, res, next)=>{
     res.setHeader('Access-Control-Allow-Origin', '*');
