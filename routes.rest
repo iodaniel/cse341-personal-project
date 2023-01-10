@@ -1,0 +1,11 @@
+// LOCALHOST
+###
+GET http://localhost:8081/contacts
+###
+GET http://localhost:8081/contacts/63ba2152b2d6aa70208cd784
+###
+GET http://localhost:8081/contacts/63ba2152b2d6aa70208cd785
+###
+GET http://localhost:8081/contacts/63ba2152b2d6aa70208cd786
+
+// PRODUCTION Deploy
