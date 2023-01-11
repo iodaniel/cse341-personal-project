@@ -9,8 +9,21 @@ GET http://localhost:8081/contacts/63ba2152b2d6aa70208cd785
 GET http://localhost:8081/contacts/63ba2152b2d6aa70208cd786
 
 // PRODUCTION Deploy
+###
+GET https://cse341-personal-project-74dk.onrender.com/contacts/
+###
 GET https://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa70208cd784
 ###
 GET https://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa70208cd785
 ###
 GET https://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa70208cd786
+###
+GET https://cse341-personal.herokuapp.com/contacts/
+###
+GET https://cse341-personal.herokuapp.com/contacts/63ba2152b2d6aa70208cd784
+###
+GET https://cse341-personal.herokuapp.com/contacts/63ba2152b2d6aa70208cd785
+###
+GET https://cse341-personal.herokuapp.com/contacts/63ba2152b2d6aa70208cd786
+###
+https://agile-waters-00952.herokuapp.com/contacts
