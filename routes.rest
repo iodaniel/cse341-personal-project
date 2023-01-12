@@ -7,7 +7,31 @@ GET http://localhost:8080/
 GET http://localhost:8080/contacts/63ba2152b2d6aa70208cd785
 ###
 GET http://localhost:8080/contacts/63ba2152b2d6aa70208cd786
+### Create contact 
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
 
+{
+"firstName":"Bart", 
+"lastName":"Simpson",
+ "email":"elbarto@test.com", 
+ "favoriteColor":"Yellow", 
+ "birthday":"06/19/1992"
+}
+### Update contact 
+PUT http://localhost:8080/contacts/63bf7463b33535a47ce8eb8c HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Lisa", 
+"lastName":"Simpson",
+ "email":"smart@test.com", 
+ "favoriteColor":"White", 
+ "birthday":"06/19/1992"
+}
+### Delete contact 
+### DELETE contact
+DELETE http://localhost:8080/contacts/63ba2152b2d6aa70208cd784 HTTP/1.1
 // PRODUCTION Deploy
 ###
 GET https://cse341-personal-project-74dk.onrender.com/contacts/
@@ -18,3 +42,26 @@ GET https://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa702
 ###
 GET https://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa70208cd786
 ###
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Magy", 
+"lastName":"Simpson",
+ "email":"baby@test.com", 
+ "favoriteColor":"Green", 
+ "birthday":"06/19/2000"
+}
+###
+PUT http://localhost:8080/contacts/63ba2152b2d6aa70208cd786 HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Homer", 
+"lastName":"Simpson",
+ "email":"Chupelupe@test.com", 
+ "favoriteColor":"Blue", 
+ "birthday":"06/19/1974"
+}
+###
+DELETE http://localhost:8080/contacts/63ba2152b2d6aa70208cd785 HTTP/1.1
