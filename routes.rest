@@ -64,4 +64,4 @@ content-type: application/json
  "birthday":"06/19/1974"
 }
 ###
-DELETE http://cse341-personal-project-74dk.onrender.comcontacts/63ba2152b2d6aa70208cd785 HTTP/1.1
+DELETE http://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa70208cd785 HTTP/1.1
