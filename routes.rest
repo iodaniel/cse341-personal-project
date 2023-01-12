@@ -42,7 +42,7 @@ GET https://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa702
 ###
 GET https://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa70208cd786
 ###
-POST http://localhost:8080/contacts HTTP/1.1 
+POST http://cse341-personal-project-74dk.onrender.com/contacts HTTP/1.1 
 content-type: application/json
 
 {
@@ -53,7 +53,7 @@ content-type: application/json
  "birthday":"06/19/2000"
 }
 ###
-PUT http://localhost:8080/contacts/63ba2152b2d6aa70208cd786 HTTP/1.1 
+PUT http://cse341-personal-project-74dk.onrender.com/contacts/63ba2152b2d6aa70208cd786 HTTP/1.1 
 content-type: application/json
 
 {
@@ -64,4 +64,4 @@ content-type: application/json
  "birthday":"06/19/1974"
 }
 ###
-DELETE http://localhost:8080/contacts/63ba2152b2d6aa70208cd785 HTTP/1.1
+DELETE http://cse341-personal-project-74dk.onrender.comcontacts/63ba2152b2d6aa70208cd785 HTTP/1.1
