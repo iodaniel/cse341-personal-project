@@ -1,14 +1,14 @@
 // LOCALHOST
 ###
-GET http://localhost:8080/contacts
+GET http://localhost:8082/contacts
 ###
-GET http://localhost:8080/
+GET http://localhost:8082/
 ###
-GET http://localhost:8080/contacts/63ba2152b2d6aa70208cd785
+GET http://localhost:8082/contacts/63ba2152b2d6aa70208cd785
 ###
-GET http://localhost:8080/contacts/63ba2152b2d6aa70208cd786
+GET http://localhost:8082/contacts/63ba2152b2d6aa70208cd786
 ### Create contact 
-POST http://localhost:8080/contacts HTTP/1.1 
+POST http://localhost:8082/contacts HTTP/1.1 
 content-type: application/json
 
 {
@@ -19,19 +19,19 @@ content-type: application/json
  "birthday":"06/19/1992"
 }
 ### Update contact 
-PUT http://localhost:8080/contacts/63bf7463b33535a47ce8eb8c HTTP/1.1 
+PUT http://localhost:8082/contacts/63bf7463b33535a47ce8eb8c HTTP/1.1 
 content-type: application/json
 
 {
 "firstName":"Lisa", 
 "lastName":"Simpson",
- "email":"smart@test.com", 
+ "email":"smart@tesla.com", 
  "favoriteColor":"White", 
  "birthday":"06/19/1992"
 }
 ### Delete contact 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/63ba2152b2d6aa70208cd784 HTTP/1.1
+DELETE http://localhost:8082/contacts/63ba2152b2d6aa70208cd784 HTTP/1.1
 // PRODUCTION Deploy
 ###
 GET https://cse341-personal-project-74dk.onrender.com/contacts/

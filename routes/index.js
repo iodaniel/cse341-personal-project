@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 //createa route for the contact all ...
+router.use('/', require('./swagger'));
 router.use('/contacts', require('./contacts'));
 
 router.get('/', (req, res) => {
